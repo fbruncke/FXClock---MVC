@@ -13,4 +13,15 @@ public class CodeTest {
 
         Assert.assertEquals(testMinIn,testMinOut,0);
     }
+
+    @Test
+    public void testMinSetterFailure()
+    {
+        WatchData wd = new WatchData();
+        double testMinIn = 10;
+        wd.setMin(testMinIn);
+        double testMinOut = 11;
+
+        Assert.assertEquals(testMinIn,testMinOut,0);
+    }
 }
