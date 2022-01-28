@@ -1,7 +1,24 @@
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.Assert;
 
 public class CodeTest {
+
+    @BeforeClass
+    public static void setUpClass()
+    {
+        System.out.println("setup");
+    }
+
+
+    @AfterClass
+    public static void tearDownClass()
+    {
+        System.out.println("teardown");
+    }
+
+
 
     @Test
     public void testMinSetter()
