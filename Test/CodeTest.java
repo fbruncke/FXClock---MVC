@@ -53,4 +53,15 @@ public class CodeTest {
         Assert.assertNotEquals(testMinIn,testMinOut,0);
     }
 
+    @Test
+    public void testNoFour()
+    {
+        WatchData wd = new WatchData();
+        double testMinIn = 110;
+        wd.setMin(testMinIn);
+        double testMinOut = 120;
+
+        Assert.assertNotEquals(testMinIn,testMinOut,0);
+    }
+
 }
