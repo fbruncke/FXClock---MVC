@@ -43,7 +43,7 @@ public class CodeTest {
     }
 
     @Test
-    public void testMaxSetterFailure()
+    public void testMaxSetterNotEqual()
     {
         WatchData wd = new WatchData();
         double testMinIn = 11;
