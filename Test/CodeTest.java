@@ -35,7 +35,7 @@ public class CodeTest {
     public void testMinSetterFailure()
     {
         WatchData wd = new WatchData();
-        double testMinIn = 10;
+        double testMinIn = 11;
         wd.setMin(testMinIn);
         double testMinOut = 11;
 
