@@ -54,7 +54,7 @@ public class CodeTest {
     }
 
     @Test
-    public void testNoFour()
+    public void testNoFourBetterName()
     {
         WatchData wd = new WatchData();
         double testMinIn = 110;
